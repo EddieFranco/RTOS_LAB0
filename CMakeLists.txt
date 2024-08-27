@@ -35,7 +35,7 @@ else()
 endif()
 
 set(picotoolVersion 2.0.0)
-include(${USERHOME}/.pico-sdk/cmake/pico-vscode.cmake)
+include(${PICO_SDK_PATH}/cmake/pico-vscode.cmake)
 # ====================================================================================
 set(PICO_BOARD pico_w CACHE STRING "Board type")
 
